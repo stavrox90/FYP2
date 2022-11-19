@@ -1,1 +1,5 @@
+# ignore credentials
+.env
+
+# ignore external packages/plugins
 /vendor
