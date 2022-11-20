@@ -1,0 +1,21 @@
+{
+    "name": "zyev/collaborative-course-callendar",
+    "description": "Collaborative Online Course Schedulings and Plannings.",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Zyev\\CollaborativeCourseCallendar\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "inrafilus",
+            "email": "inrafilus@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "laravel-zero/laravel-zero": "dev-master"
+    }
+}
