@@ -1,5 +1,5 @@
-# ignore credentials
-.env
-
-# ignore external packages/plugins
 /vendor
+/.idea
+/.vscode
+/.vagrant
+.phpunit.result.cache

@@ -2,7 +2,7 @@
 /*
 //Sample MySQLi config file
  */
-//Step 1: Connecting to a Database using MySQLi API 
+//Step 1: Connecting to a Database using MySQLi API
 // modify these variables for your installation
 $databaseHost = 'localhost:3306';
 $databaseName = 'calendar';
@@ -15,7 +15,7 @@ $mysqli = mysqli_connect($databaseHost, $databaseUsername, $databasePassword, $d
 
 //MySQLi Object-Oriented approach
 /*
-$mysqli = new mysqli($databaseHost, $databaseUsername, $databasePassword, $databaseName); 
+$mysqli = new mysqli($databaseHost, $databaseUsername, $databasePassword, $databaseName);
 */
 
 //MySQLi Procedural approach
@@ -27,7 +27,7 @@ if (mysqli_connect_errno()) {
     //=echo "Database connected successfully <br>";
 }
 
-//Step 2: Handling Connection Errors - mysqli 
+//Step 2: Handling Connection Errors - mysqli
 //MySQLi Object-Oriented approach
 //connect_errno returns the last error code
 // Check connection
