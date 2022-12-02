@@ -5,3 +5,4 @@
 .phpunit.result.cache
 builds/reka
 /database/database.sqlite
+.env
